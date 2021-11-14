@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
+import HeaderControls from "./HeaderControls";
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -15,20 +14,7 @@ const Header = () => {
         <p>
           America's most unhinged rooster is out of retirement, and this time? He's mad as hell.  Experience the unapologetic flavor burst of Rex Goliath.
         </p>
-        <ul className="controls">
-          <li>
-            <button className="primary-action">
-            <FontAwesomeIcon icon={faPlay} />
-            <span>Drink</span>
-            </button>
-          </li>
-          <li>
-            <button className="secondary-action">
-              <FontAwesomeIcon icon={faInfoCircle} />
-              <span>More Info</span>
-            </button>
-          </li>
-        </ul>
+        <HeaderControls />
       </div>
     </header>
   )
