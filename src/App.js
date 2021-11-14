@@ -1,5 +1,5 @@
 import "./App.css";
-import wines from "./data";
+import { wines } from "./data";
 import Category from "./components/Category";
 import Header from "./components/Header";
 

@@ -1,4 +1,6 @@
-import HeaderControls from "./HeaderControls";
+// TODO: This should be passed from `App` component (same place as other data imports)
+import { heroContent } from "../data";
+import HeroContent from "./HeroContent";
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -6,16 +8,7 @@ const Header = () => {
     <header className="hero">
       <img className="hero-image" src="/wine-hero.webp" alt="Wine bottles" />
       <Navbar />
-      <div className="hero-content">
-        <h2>
-          <img alt="Rex Goliath" src="/rex-goliath-logo.png" />
-        </h2>
-        <h3>His Royal Majesty is back.</h3>
-        <p>
-          America's most unhinged rooster is out of retirement, and this time? He's mad as hell.  Experience the unapologetic flavor burst of Rex Goliath.
-        </p>
-        <HeaderControls />
-      </div>
+      <HeroContent data={heroContent} />
     </header>
   )
 };
