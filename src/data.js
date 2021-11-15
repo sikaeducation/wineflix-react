@@ -118,9 +118,21 @@ const userData = {
   username: "S",
 }
 
+const categories = [
+  {
+    title: "Drink Again",
+    data: wines.filter(wine => wine.isFinished === true),
+  },
+  {
+    title: "Keep Drinking",
+    data: wines.filter(wine => wine.progress !== undefined),
+  }
+]
+
 export {
   wines,
   heroContent,
   navbarLinks,
   userData,
+  categories,
 };

@@ -1,5 +1,5 @@
 import "./App.css";
-import { wines, heroContent, navbarLinks } from "./data";
+import { heroContent, navbarLinks, categories } from "./data";
 import Category from "./components/Category";
 import Hero from "./components/Hero";
 
@@ -13,10 +13,10 @@ const App = () => {
         navbarLinks={navbarLinks}
         heroContent={heroContent} />
       <main>
-        <Category title="Drink Again"
-          data={wines.filter(wine => wine.isFinished === true)} />
-        <Category title="Keep Drinking"
-          data={wines.filter(wine => wine.progress !== undefined)} />
+        {categories.map((category) => (
+          <Category title={category.title}
+            data={category.data} />
+        ))}
       </main>
     </div>
   )
