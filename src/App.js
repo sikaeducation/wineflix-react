@@ -3,10 +3,13 @@ import { wines } from "./data";
 import Category from "./components/Category";
 import Hero from "./components/Hero";
 
+// TODO: No hardcoded data
+
 const App = () => {
   return (
     <div className="App">
-      <Hero />
+      <Hero imageUrl="/wine-hero.webp"
+        imageLabel="Wine bottles" />
       <main>
         <Category title="Drink Again"
           data={wines.filter(wine => wine.isFinished === true)} />

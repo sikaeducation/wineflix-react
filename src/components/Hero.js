@@ -3,12 +3,10 @@ import { heroContent, navbarLinks } from "../data";
 import HeroContent from "./HeroContent";
 import Navbar from "./Navbar";
 
-// TODO: No hardcoded data
-
-const Hero = () => {
+const Hero = ({ imageUrl, imageLabel }) => {
   return (
     <header className="hero">
-      <img className="hero-image" src="/wine-hero.webp" alt="Wine bottles" />
+      <img className="hero-image" src={imageUrl} alt={imageLabel} />
       <Navbar title="WineFlix"
         data={navbarLinks} />
       <HeroContent data={heroContent} />
