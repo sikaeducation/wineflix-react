@@ -1,21 +1,17 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
+import HeaderControl from "./HeaderControl"
+
+// TODO: No hardcoded data
 
 const HeaderControls = () => {
   return (
     <ul className="controls">
-      <li>
-        <button className="primary-action">
-          <FontAwesomeIcon icon={faPlay} />
-          <span>Drink</span>
-        </button>
-      </li>
-      <li>
-        <button className="secondary-action">
-          <FontAwesomeIcon icon={faInfoCircle} />
-          <span>More Info</span>
-        </button>
-      </li>
+      <HeaderControl className="primary-action"
+        text="Drink"
+        iconImg={faPlay} />
+      <HeaderControl className="secondary-action"
+        text="More Info"
+        iconImg={faInfoCircle} />
     </ul>
   )
 }
