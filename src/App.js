@@ -1,12 +1,12 @@
 import "./App.css";
 import { wines } from "./data";
 import Category from "./components/Category";
-import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
+      <Hero />
       <main>
         <Category title="Drink Again"
           data={wines.filter(wine => wine.isFinished === true)} />

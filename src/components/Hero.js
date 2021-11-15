@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 // TODO: No hardcoded data
 
-const Header = () => {
+const Hero = () => {
   return (
     <header className="hero">
       <img className="hero-image" src="/wine-hero.webp" alt="Wine bottles" />
@@ -15,4 +15,4 @@ const Header = () => {
   )
 };
 
-export default Header
+export default Hero
