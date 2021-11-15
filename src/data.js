@@ -1,3 +1,5 @@
+import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
+
 const wines = [{
   id: 1,
   imageUrl: '/red-wine.jpg',
@@ -129,10 +131,24 @@ const categories = [
   }
 ]
 
+const headerControls = [
+  {
+    className: "primary-action",
+    text: "Drink",
+    iconImg: faPlay,
+  },
+  {
+    className: "secondary-action",
+    text: "More Info",
+    iconImg: faInfoCircle,
+  },
+];
+
 export {
   wines,
   heroContent,
   navbarLinks,
   userData,
   categories,
+  headerControls,
 };

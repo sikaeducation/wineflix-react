@@ -1,5 +1,5 @@
 import "./App.css";
-import { heroContent, navbarLinks, categories } from "./data";
+import { heroContent, navbarLinks, categories, headerControls } from "./data";
 import Category from "./components/Category";
 import Hero from "./components/Hero";
 
@@ -11,7 +11,8 @@ const App = () => {
       <Hero imageUrl="/wine-hero.webp"
         imageLabel="Wine bottles"
         navbarLinks={navbarLinks}
-        heroContent={heroContent} />
+        heroContent={heroContent}
+        headerControls={headerControls} />
       <main>
         {categories.map((category) => (
           <Category title={category.title}
