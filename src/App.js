@@ -6,12 +6,14 @@ import Hero from "./components/Hero";
 const App = () => {
   return (
     <div className="App">
-      <Hero imageUrl={heroHeaderContent.imageUrl}
+      <Hero
+        imageUrl={heroHeaderContent.imageUrl}
         imageLabel={heroHeaderContent.imageLabel}
         siteTitle={siteTitle}
         navbarLinks={navbarLinks}
         heroContent={heroContent}
-        headerControls={headerControls} />
+        headerControls={headerControls}
+      />
       <main>
         {categories.map((category) => (
           <Category title={category.title}
