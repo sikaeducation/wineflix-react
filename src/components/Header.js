@@ -7,7 +7,7 @@ const Header = () => {
     <header className="hero">
         <nav className="navigation">
             <PrimaryNav />
-            <SecondaryNav />
+            <SecondaryNav url='https://developer.mozilla.org'/>
         </nav>
     </header>
     )

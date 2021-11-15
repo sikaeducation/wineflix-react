@@ -4,15 +4,13 @@ import Wine from './Wine'
 const WineList = ({wines}) => {
 
     return (
-        <>
         <ul>
             {
-                wines.map(wine => {
-                    return <Wine wine={wine}/>
+                wines && wines.length > 0 && wines.map(wine => {
+                    return <Wine key={wine.id} wine={wine}/>
                 })
             }
         </ul>
-        </>
     )
 }
 

@@ -3,7 +3,6 @@ import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
 
 const Hero = ({content: {title, subtitle, imageUrl, description}}) => {
     return (
-        <>
            <div className="hero hero-content">
                 <h2>
                 <img alt={title} src={imageUrl} />
@@ -25,7 +24,6 @@ const Hero = ({content: {title, subtitle, imageUrl, description}}) => {
                 </li>
                 </ul>
             </div>
-        </>
     )
 }
 

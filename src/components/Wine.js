@@ -2,7 +2,7 @@ import React from 'react'
 
 const Wine = ({wine: {id, imageUrl, label, progress, isFinished}}) => {
     return (
-        <li key={id}>
+        <li>
             <div className="wine">
             <img src={imageUrl} alt={label} />
             { !isFinished &&
