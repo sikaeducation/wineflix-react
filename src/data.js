@@ -1,5 +1,7 @@
 import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
 
+const siteTitle = "WineFlix";
+
 const wines = [{
   id: 1,
   imageUrl: '/red-wine.jpg',
@@ -150,6 +152,7 @@ const headerControls = [
 ];
 
 export {
+  siteTitle,
   wines,
   heroHeaderContent,
   heroContent,
