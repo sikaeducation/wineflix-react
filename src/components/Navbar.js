@@ -1,6 +1,6 @@
-// TODO: No hardcoded data
-
+import { userData } from "../data";
 import NavbarLink from "./NavbarLink";
+import UserAvatar from "./UserAvatar";
 
 const Navbar = ({ title, data }) => {
   return (
@@ -14,9 +14,7 @@ const Navbar = ({ title, data }) => {
         </ul>
       </section>
       <section className="secondary-navigation">
-        <span className="user-avatar">
-          <a href="https://developer.mozilla.org">S</a>
-        </span>
+        <UserAvatar userData={userData} />
       </section>
     </nav>
   )

@@ -112,8 +112,15 @@ const navbarLinks = [
   }
 ];
 
+// TODO: This should probably be in `state`
+const userData = {
+  url: "https://developer.mozilla.org",
+  username: "S",
+}
+
 export {
   wines,
   heroContent,
   navbarLinks,
+  userData,
 };
