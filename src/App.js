@@ -1,15 +1,13 @@
 import "./App.css";
-import { heroContent, navbarLinks, categories, headerControls } from "./data";
+import { heroHeaderContent, heroContent, navbarLinks, categories, headerControls } from "./data";
 import Category from "./components/Category";
 import Hero from "./components/Hero";
-
-// TODO: No hardcoded data
 
 const App = () => {
   return (
     <div className="App">
-      <Hero imageUrl="/wine-hero.webp"
-        imageLabel="Wine bottles"
+      <Hero imageUrl={heroHeaderContent.imageUrl}
+        imageLabel={heroHeaderContent.imageLabel}
         navbarLinks={navbarLinks}
         heroContent={heroContent}
         headerControls={headerControls} />

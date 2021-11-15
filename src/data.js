@@ -85,6 +85,11 @@ const wines = [{
   label: 'Wine',
 }];
 
+const heroHeaderContent = {
+  imageUrl: "/wine-hero.webp",
+  imageLabel: "Wine bottles",
+};
+
 const heroContent = {
   title: 'Rex Goliath',
   subtitle: 'His Royal Majesty is back.',
@@ -146,6 +151,7 @@ const headerControls = [
 
 export {
   wines,
+  heroHeaderContent,
   heroContent,
   navbarLinks,
   userData,
