@@ -1,5 +1,5 @@
 import "./App.css";
-import { wines } from "./data";
+import { wines, heroContent, navbarLinks } from "./data";
 import Category from "./components/Category";
 import Hero from "./components/Hero";
 
@@ -9,7 +9,9 @@ const App = () => {
   return (
     <div className="App">
       <Hero imageUrl="/wine-hero.webp"
-        imageLabel="Wine bottles" />
+        imageLabel="Wine bottles"
+        navbarLinks={navbarLinks}
+        heroContent={heroContent} />
       <main>
         <Category title="Drink Again"
           data={wines.filter(wine => wine.isFinished === true)} />

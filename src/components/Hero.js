@@ -1,9 +1,7 @@
-// TODO: This should be passed from `App` component (same place as other data imports)
-import { heroContent, navbarLinks } from "../data";
 import HeroContent from "./HeroContent";
 import Navbar from "./Navbar";
 
-const Hero = ({ imageUrl, imageLabel }) => {
+const Hero = ({ imageUrl, imageLabel, navbarLinks, heroContent }) => {
   return (
     <header className="hero">
       <img className="hero-image" src={imageUrl} alt={imageLabel} />
