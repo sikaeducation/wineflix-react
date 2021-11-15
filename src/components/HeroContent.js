@@ -13,6 +13,6 @@ const HeroContent = ({ data, headerControlsData }) => {
       <HeaderControls data={headerControlsData} />
     </div>
   )
-};
+}
 
 export default HeroContent

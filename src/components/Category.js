@@ -11,6 +11,6 @@ const Category = ({ title, data }) => {
       </ul>
     </section>
   )
-};
+}
 
 export default Category

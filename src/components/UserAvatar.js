@@ -4,6 +4,6 @@ const UserAvatar = ({ userData }) => {
       <a href={userData.url}>{userData.username}</a>
     </span>
   )
-};
+}
 
 export default UserAvatar

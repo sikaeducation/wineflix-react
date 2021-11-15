@@ -9,6 +9,6 @@ const HeaderControl = ({ className, text, iconImg }) => {
       </button>
     </li>
   )
-};
+}
 
 export default HeaderControl

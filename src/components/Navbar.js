@@ -18,6 +18,6 @@ const Navbar = ({ title, data }) => {
       </section>
     </nav>
   )
-};
+}
 
 export default Navbar
