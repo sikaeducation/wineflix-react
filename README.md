@@ -1,4 +1,4 @@
-# WineFlix
+# WineFlix: cw-roy
 
 ![Wineflix demo](./wineflix.jpg)
 
