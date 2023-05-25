@@ -9,7 +9,7 @@ const App = () => {
       <img className="hero-image" src="/beer.webp" alt="Beer glasses" />
       <nav className="navigation">
         <section className="primary-navigation">
-          <h1>BeerFlix</h1>
+          <h1>BeerFlicks</h1>
           <ul className="navigation-links">
             <li className="active">
               <a href="https://developer.mozilla.org">Home</a>
@@ -35,7 +35,8 @@ const App = () => {
         <h2>
           <img alt="Rex Goliath" src="/rex-goliath-logo.png" />
         </h2>
-        <h3>Thaitin teach tábhairne maith Gaeilge aige.</h3>
+        <h3>He loved a good Irish pub.</h3>
+        <h4>Thaitin teach tábhairne maith Gaeilge aige.</h4>
         <p>
           
         </p>
@@ -49,7 +50,7 @@ const App = () => {
           <li>
             <button className="secondary-action">
               <FontAwesomeIcon icon={faInfoCircle} />
-              <span>Info</span>
+              <span>Eolas</span>
             </button>
           </li>
         </ul>
@@ -57,7 +58,7 @@ const App = () => {
     </header>
     <main>
       <section className="category">
-        <h2>Quaff</h2>
+        <h2>New on BeerFlicks</h2>
         <ul>
           <li>
             <div className="wine">
@@ -105,7 +106,7 @@ const App = () => {
         </ul>
       </section>
       <section className="category">
-        <h2>Have a go</h2>
+        <h2>Drink it again</h2>
         <ul>
           <li>
             <div className="wine">
