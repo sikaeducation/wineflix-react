@@ -101,91 +101,146 @@ const App = () => {
             isNew: true,
             label: "Wine",
             isFinished: true,
-        }, {
+            _category: "Drink Again",
+            get category() {
+                return this._category;
+            },
+            set category(value) {
+                this._category = value;
+            },
+        },
+        {
             id: 2,
-            imageUrl: '/red-wine.jpg',
-            label: 'Wine',
+            imageUrl: "/red-wine.jpg",
+            label: "Wine",
             isFinished: true,
-        }, {
+            category: "Drink Again",
+        },
+        {
             id: 3,
-            imageUrl: '/red-wine.jpg',
-            label: 'Wine',
+            imageUrl: "/red-wine.jpg",
+            label: "Wine",
             isNew: true,
             isFinished: true,
-        }, {
+            category: "Drink Again",
+        },
+        {
             id: 4,
-            imageUrl: '/red-wine.jpg',
-            label: 'Wine',
+            imageUrl: "/red-wine.jpg",
+            label: "Wine",
             isFinished: true,
-        }, {
+            category: "Drink Again",
+        },
+        {
             id: 5,
-            imageUrl: '/red-wine.jpg',
-            label: 'Wine',
+            imageUrl: "/red-wine.jpg",
+            label: "Wine",
             isNew: true,
             isFinished: true,
-        }, {
+            category: "Drink Again",
+        },
+        {
             id: 6,
-            imageUrl: '/red-wine.jpg',
-            label: 'Wine',
+            imageUrl: "/red-wine.jpg",
+            label: "Wine",
             isFinished: true,
-        }, {
+            category: "Drink Again",
+        },
+        {
             id: 7,
-            imageUrl: '/red-wine.jpg',
-            label: 'Wine',
+            imageUrl: "/red-wine.jpg",
+            label: "Wine",
             isFinished: true,
-        }, {
+            category: "Drink Again",
+        },
+        {
             id: 8,
-            imageUrl: '/red-wine.jpg',
-            label: 'Wine',
+            imageUrl: "/red-wine.jpg",
+            label: "Wine",
             isFinished: true,
-        }, {
-            id: 1,
-            imageUrl: '/red-wine.jpg',
+            category: "Drink Again",
+        },
+        {
+            id: 9,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }, {
-            id: 2,
-            imageUrl: '/red-wine.jpg',
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+        {
+            id: 10,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }, {
-            id: 3,
-            imageUrl: '/red-wine.jpg',
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+        {
+            id: 11,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }, {
-            id: 4,
-            imageUrl: '/red-wine.jpg',
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+        {
+            id: 12,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }, {
-            id: 5,
-            imageUrl: '/red-wine.jpg',
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+        {
+            id: 13,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }, {
-            id: 6,
-            imageUrl: '/red-wine.jpg',
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+        {
+            id: 14,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }, {
-            id: 7,
-            imageUrl: '/red-wine.jpg',
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+        {
+            id: 15,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }, {
-            id: 8,
-            imageUrl: '/red-wine.jpg',
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+        {
+            id: 16,
+            imageUrl: "/red-wine.jpg",
             progress: 22,
-            label: 'Wine',
-        }];
+            label: "Wine",
+            category: "Keep Drinking",
+        },
+    ];
+
 
     const heroContent = {
         title: "Rex Goliath",
-        subtitle: "His Royal Majesty is back.",
+        subtitle: "Silly subtitle",
         imageUrl: "/rex-goliath-logo.png",
-        description: `America's most unhinged rooster is out of retirement, and this time? He's mad as hell. Experience the unapologetic flavor burst of Rex Goliath.`,
+        description: `Silly description.`,
     };
+
+    const groupWinesByCategory = (wines) => {
+        const groupedWines = {};
+
+        wines.forEach((wine) => {
+            if (!groupedWines[wine.category]) {
+                groupedWines[wine.category] = [];
+            }
+
+            groupedWines[wine.category].push(wine);
+        });
+
+        return groupedWines;
+    };
+
+    const groupedWines = groupWinesByCategory(wines);
 
     return (
         <div className="App">
@@ -195,8 +250,9 @@ const App = () => {
                 <HeroContent {...heroContent} />
             </header>
             <main>
-                <Category title="Drink Again" wines={wines} />
-                <Category title="Keep Drinking" wines={wines} />
+                {Object.entries(groupedWines).map(([category, wines]) => (
+                    <Category key={category} title={category} wines={wines} />
+                ))}
             </main>
         </div>
     );
