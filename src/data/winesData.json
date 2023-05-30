@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/pub.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/3beers.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/smithwicks.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/pub.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/3beers.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/pub.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/3beers.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/pub.jpeg",
     "progress": 98,
     "label": "Wine",
     "isFinished": true,
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/3beers.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": true,
@@ -74,7 +74,7 @@
   },
   {
     "id": 10,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/pub.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": false,
@@ -83,7 +83,7 @@
   },
   {
     "id": 11,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/smithwicks.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": true,
@@ -92,7 +92,7 @@
   },
   {
     "id": 12,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/smithwicks.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": true,
@@ -101,7 +101,7 @@
   },
   {
     "id": 13,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/pub.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": false,
@@ -110,7 +110,7 @@
   },
   {
     "id": 14,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/3beers.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": false,
@@ -119,7 +119,7 @@
   },
   {
     "id": 15,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/3beers.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": false,
@@ -128,7 +128,7 @@
   },
   {
     "id": 16,
-    "imageUrl": "/red-wine.jpg",
+    "imageUrl": "/pub.jpeg",
     "progress": 22,
     "label": "Wine",
     "isNew": false,
