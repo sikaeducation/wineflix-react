@@ -1,17 +1,15 @@
 // Wine.js
 import React from "react";
+import NewBadge from "./NewBadge";
+import ProgressIndicator from "./ProgressIndicator";
 
 const Wine = ({ imageUrl, isNew, label, isFinished, progress }) => {
   return (
     <li>
       <div className="wine">
         <img src={imageUrl} alt="Wine" />
-        {isNew && <span className="new-badge">New!</span>}
-        {isFinished && (
-          <div className="amount-consumed">
-            <progress min="0" max="100" value={progress}></progress>
-          </div>
-        )}
+        {isNew && <NewBadge />}
+        {isFinished && <ProgressIndicator progress={progress} />}
       </div>
     </li>
   );

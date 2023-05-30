@@ -1,7 +1,10 @@
+// App.js
+import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Main from "./Main";
 import winesData from "./winesData.json";
+import Footer from "./Footer";
 
 const App = () => {
   const heroContent = {
@@ -11,28 +14,11 @@ const App = () => {
     description: "Silly description."
   };
 
-  const groupWinesByCategory = (wines) => {
-    const groupedWines = {};
-
-    wines.forEach((wine) => {
-      if (wine.category) {
-        if (!groupedWines[wine.category]) {
-          groupedWines[wine.category] = [];
-        }
-
-        groupedWines[wine.category].push(wine);
-      }
-    });
-
-    return groupedWines;
-  };
-
-  const groupedWines = groupWinesByCategory(winesData);
-
   return (
     <div className="App">
       <Header heroContent={heroContent} />
-      <Main groupedWines={groupedWines} />
+      <Main winesData={winesData} />
+      <Footer />
     </div>
   );
 };
