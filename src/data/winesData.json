@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 3,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 4,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 5,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 6,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 7,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 8,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 9,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": true,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 10,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 11,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": true,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 12,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": true,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 13,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 14,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 15,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 16,
+    "imageUrl": "/red-wine.jpg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  }
+]

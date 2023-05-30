@@ -1,18 +1,13 @@
 // App.js
-import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Main from "./Main";
-import winesData from "./winesData.json";
 import Footer from "./Footer";
+import winesData from "./data/winesData.json";
+import wineInfo from "./data/wineInfo.json"
 
 const App = () => {
-  const heroContent = {
-    title: "Rex Goliath",
-    subtitle: "Silly subtitle",
-    imageUrl: "/rex-goliath-logo.png",
-    description: "Silly description."
-  };
+  const heroContent = wineInfo;
 
   return (
     <div className="App">
