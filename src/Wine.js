@@ -9,7 +9,7 @@ const Wine = ({ imageUrl, isNew, label, isFinished, progress }) => {
       <div className="wine">
         <img src={imageUrl} alt="Wine" />
         {isNew && <NewBadge />}
-        {isFinished && <ProgressIndicator progress={progress} />}
+        {progress >= 0 && <ProgressIndicator progress={progress} />}
       </div>
     </li>
   );

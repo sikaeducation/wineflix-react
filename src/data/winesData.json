@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/pub.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/3beers.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 3,
+    "imageUrl": "/smithwicks.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 4,
+    "imageUrl": "/pub.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 5,
+    "imageUrl": "/3beers.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 6,
+    "imageUrl": "/pub.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 7,
+    "imageUrl": "/3beers.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 8,
+    "imageUrl": "/pub.jpeg",
+    "progress": 98,
+    "label": "Wine",
+    "isFinished": true,
+    "category": "Drink Again"
+  },
+  {
+    "id": 9,
+    "imageUrl": "/3beers.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": true,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 10,
+    "imageUrl": "/pub.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 11,
+    "imageUrl": "/smithwicks.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": true,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 12,
+    "imageUrl": "/smithwicks.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": true,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 13,
+    "imageUrl": "/pub.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 14,
+    "imageUrl": "/3beers.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 15,
+    "imageUrl": "/3beers.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  },
+  {
+    "id": 16,
+    "imageUrl": "/pub.jpeg",
+    "progress": 22,
+    "label": "Wine",
+    "isNew": false,
+    "isFinished": false,
+    "category": "Keep Drinking"
+  }
+]

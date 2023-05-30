@@ -1,10 +1,13 @@
 // Footer.js
-import React from "react";
-
 const Footer = () => {
+  const footerStyle = {
+    color: "gray",
+    textAlign: "center",
+  };
+
   return (
-    <footer className="footer">
-      <p>&copy; 2023 WineFlix. All rights reserved.</p>
+    <footer style={footerStyle}>
+      <p>&copy; 2023 BeerFlix. If this were real, all rights would be reserved.  But it's not, so...whatevs.</p>
     </footer>
   );
 };
