@@ -1,7 +1,7 @@
 {
   "name": "react-beerflix",
   "version": "0.1.0",
-  "homepage": "htpps://cw-roy.github.io/wineflix-react",
+  "homepage": "https://cw-roy.github.io/wineflix-react",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
