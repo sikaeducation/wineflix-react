@@ -1,6 +1,4 @@
 // ProgressIndicator.js
-import React from "react";
-
 const ProgressIndicator = ({ progress }) => {
   return (
     <div className="amount-consumed">

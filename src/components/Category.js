@@ -1,5 +1,4 @@
 // Category.js
-import React from "react";
 import WineList from "./WineList";
 
 const Category = ({ title, wines }) => {

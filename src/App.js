@@ -1,8 +1,8 @@
 // App.js
 import "./App.css";
-import Header from "./Header";
-import Main from "./Main";
-import Footer from "./Footer";
+import Header from "./navigation/Header";
+import Main from "./components/Main";
+import Footer from "./navigation/Footer";
 import winesData from "./data/winesData.json";
 import wineInfo from "./data/wineInfo.json"
 

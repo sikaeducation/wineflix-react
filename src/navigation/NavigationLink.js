@@ -1,6 +1,4 @@
 //NavigationLink.js
-import React from "react";
-
 const NavigationLink = ({ href, text }) => {
   return (
     <li>

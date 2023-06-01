@@ -1,9 +1,6 @@
 // Main.js
-import React from "react";
 import Category from "./Category";
-
 const Main = ({ winesData }) => {
-  // Group the winesData based on category
   const groupedWines = winesData.reduce((acc, wine) => {
     if (acc[wine.category]) {
       acc[wine.category].push(wine);

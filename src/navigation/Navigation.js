@@ -1,7 +1,5 @@
 // Navigation.js
-import React from "react";
 import NavigationLink from "./NavigationLink";
-
 const Navigation = () => {
   return (
     <nav className="navigation">
@@ -11,12 +9,12 @@ const Navigation = () => {
           <NavigationLink href="https://developer.mozilla.org" text="Home" />
           <NavigationLink href="https://developer.mozilla.org" text="Stout" />
           <NavigationLink href="https://developer.mozilla.org" text="Pale" />
-          <NavigationLink href="https://developer.mozilla.org" text="IPA" />
+          <NavigationLink href="https://developer.mozilla.org" text="Ale" />
         </ul>
       </section>
       <section className="secondary-navigation">
         <span className="user-avatar">
-          <a href="https://developer.mozilla.org">BF</a>
+          <a href="https://developer.mozilla.org">CR</a>
         </span>
       </section>
     </nav>

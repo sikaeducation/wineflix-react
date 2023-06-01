@@ -1,7 +1,7 @@
 // Header.js
 import React from "react";
 import Navigation from "./Navigation";
-import HeroContent from "./HeroContent";
+import HeroContent from "../components/HeroContent";
 
 const Header = ({ heroContent }) => {
   return (
